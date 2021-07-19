@@ -1,0 +1,51 @@
+*, ul li a{
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+.col-md, ul li a{
+   color: black;
+   padding-top: 40px;
+    
+}
+.col-md ul li a:hover{
+    background-color: grey;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 20px;
+    
+     
+ }
+body{
+    background-image: url("../img/doc.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 930px;
+}
+#data{
+    padding-top: 150px;
+    
+}
+#button{
+    padding-top: 60px;
+    padding-left: 100px;
+}
+#data h1{
+    padding-left: 40px;
+    
+}
+#data p{
+    padding: 20px;
+    font-size: 25px;
+}
+button{
+    padding: 10px 80px;
+    border-radius: 20px;
+    background:transparent ;
+}
+
+button:hover{
+    background-color: grey;
+    color: white;
+}
